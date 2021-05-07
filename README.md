@@ -10,7 +10,7 @@ This is an eCommerce application to upload CSV bulk orders to newly migrated tar
 2. Get the docker image from dockerhub [here](hacknhill/containers:paloit-ecommerce). Run inside docker expose port 8080.
 
 ```cmd
-docker run -itd -p 8080:8080 paloit/ecommerce
+docker run -itd -p 8080:8080 hacknhill/containers:paloit-ecommerce
 ```
 
 ### Front-end - React
@@ -19,6 +19,6 @@ docker run -itd -p 8080:8080 paloit/ecommerce
 2. Get the docker image from dockerhub [here](hacknhill/containers:paloit-ecommerce-front). Run inside docker expose port 3000.
 
 ```cmd
-docker run -itd -p 3000:3000 paloit/ecommerce-front
+docker run -itd -p 3000:3000 hacknhill/containers:paloit-ecommerce-front
 ```
 
